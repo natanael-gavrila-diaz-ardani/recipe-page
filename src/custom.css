@@ -1,0 +1,39 @@
+body{
+    background-color: #f5e7d8;
+}
+
+.background{
+    padding: 10rem;
+}
+
+li::marker {
+    font-size: 1.0em;
+    color: #92400e;
+}
+
+ol li::marker {
+    font-weight: bold;
+}
+
+li:before {
+    content: "";
+    padding-left: 20px;
+}
+
+li {
+    text-indent: -2em; /* mengatur indentasi negatif untuk mengimbangi padding pada ol */
+    padding-left: 2em;
+}
+
+.border-b {
+    border-bottom: 1.5px solid #e2e8f0;
+}
+
+td{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
